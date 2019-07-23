@@ -1,14 +1,27 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="about">
+  {% include head.html %}
 
-  <h2 class="about-title">{{ page.title }}</h2>
-  <div class="about-line"></div>
+  <body>
 
-  {{ content }}
+    {% include navigation.html %}
 
-</div>
+    <main>
+        <div class="about">
+
+            <h2 class="about-title">{{ page.title }}</h2>
+            <div class="about-line"></div>
+          
+            {{ content }}
+          
+          </div>
+    </main>
+
+
+  </body>
+</html>
+
+
 
 
