@@ -1,8 +1,8 @@
 # Site settings
 title:          eypidan's blog
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:
-url:            "https://eypidan.github.io"
+baseurl:        ""
+
 
 
 # Author
@@ -27,9 +27,11 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  # - jemoji #Uncomment this to allow emoji in your post
+  - jekyll-seo-tag
+
+ #  - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink:   pretty
 paginate:       5
 
