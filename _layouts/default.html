@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<head>
   {% include head.html %}
-
+  {% if page.use_math %}
+    {% include mathjax_support %}
+  {% endif %}
+</head>
+<html lang="en">
   <body>
 
     {% include navigation.html %}
