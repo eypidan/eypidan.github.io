@@ -2,8 +2,6 @@
 layout: post
 title:  "Common knowledge in ML"
 author: "eypidan"
-use_math: true
-
 ---
 
 ## Loss Function
