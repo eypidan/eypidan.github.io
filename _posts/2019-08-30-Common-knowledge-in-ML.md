@@ -3,7 +3,11 @@ layout: post
 title:  "Common knowledge in ML"
 author: "eypidan"
 ---
-
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
 ## Loss Function
 
 - Cross-Entropy
@@ -55,4 +59,4 @@ author: "eypidan"
 | ------ | ---- | ----- | ----------- |
 | dog    | -1   | 0.368 | 0.047       |
 | cat    | 2    | 7.39  | 0.953       |
-
+{: .tablelines}
