@@ -11,7 +11,7 @@ author: "eypidan"
 - Since its inception, Microsoft  Windows NT was designed to allow environment subsystems like Win32 to present a programmatic interface to applications without being tied to implementations details inside the kernel. This allowed the NT kernel to support POSIX, OS/2 and Win32 subsystems as its initial release. **Early subsystems were implemented as user mode modules** and subsystem API is implemented by PE/COFF executables, a set of libraries and services.
   - **POSIX**: POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
 
-  - **OS/2**:OS/2 was intended as a protected-mode successor of PC DOS. Notably, basic system calls were modeled after MS-DOS calls
+  - **OS/2**:OS/2 was intended as a protected-mode successor of PC DOS. Notably, basic system calls were modeled after MS-DOS calls.
 
     - ![Os2logo.svg](.\assets\250px-Os2logo.svg.png)
 
