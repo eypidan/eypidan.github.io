@@ -15,7 +15,7 @@ author:
 google_analytics: UA-144242599-1
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 
 
 # Assets
