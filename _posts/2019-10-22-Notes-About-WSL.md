@@ -80,9 +80,11 @@ author: "eypidan"
   
   ![s](./assets/file-system-graphic-1024x547.png)
   
-   	When an application calls a system call, this is handled by the system call layer, which defines the various kernel entry points such as open, read, chmod, stat, etc. For these file-related system calls, the system call layer has very little functionality; it basically just forwards the call to VFS. 
+	When an application calls a system call, this is handled by the system call layer, which defines the various kernel entry points such as open, read, chmod, stat, etc. For these file-related system calls, the system call layer has very little functionality; it basically just forwards the call to VFS. 
   
-  ​	 For operations that use paths (such as open or stat), VFS resolves the path using a directory entry cache. If an entry is not in the cache, it calls into one of several file system plugins to create an inode for the entry. These plugins provide inode operations like lookup, chmod, and others, similar to the inode operations used by the Linux kernel. When a file is opened, VFS uses the file system’s inode open operation to create a file object, and returns a file descriptor for that file object. System calls operating on the file descriptor (such as read, write or sync) call file operations defined by the file systems. This system is deliberately very close to how Linux behaves, so WSL can support the same semantics. 
+	
+	
+	For operations that use paths (such as open or stat), VFS resolves the path using a directory entry cache. If an entry is not in the cache, it calls into one of several file system plugins to create an inode for the entry. These plugins provide inode operations like lookup, chmod, and others, similar to the inode operations used by the Linux kernel. When a file is opened, VFS uses the file system’s inode open operation to create a file object, and returns a file descriptor for that file object. System calls operating on the file descriptor (such as read, write or sync) call file operations defined by the file systems. This system is deliberately very close to how Linux behaves, so WSL can support the same semantics. 
 
 ### Difference Between WSL1 & WSL2
 
