@@ -110,15 +110,15 @@ author: "eypidan"
 
 ### Reference
 
-[Cygwin]: https://en.wikipedia.org/wiki/Cygwin
+- [Cygwin Wiki]( https://en.wikipedia.org/wiki/Cygwin)
 
-[Windows NT]:https://en.wikipedia.org/wiki/Windows_NT
-[WSL File System]:https://blogs.msdn.microsoft.com/wsl/2016/06/15/wsl-file-system-support
+- [Windows NT Wiki](https://en.wikipedia.org/wiki/Windows_NT)
+- [WSL File System Blog](https://blogs.msdn.microsoft.com/wsl/2016/06/15/wsl-file-system-support)
 
-[WSL Overview]:https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/
+- [WSL Overview Blog](https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/)
 
-[POSIX]: https://en.wikipedia.org/wiki/POSIX
-[Procfs  ]: https://en.wikipedia.org/wiki/Procfs
+- [POSIX Wiki](https://en.wikipedia.org/wiki/POSIX)
+- [Procfs  Wiki](https://en.wikipedia.org/wiki/Procfs)
 
-[WSL2 ]: https://docs.microsoft.com/en-us/windows/wsl/wsl2-abou
+- [WSL2 Blog ]( https://docs.microsoft.com/en-us/windows/wsl/wsl2-about)
 
