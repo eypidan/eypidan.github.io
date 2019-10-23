@@ -16,17 +16,19 @@ author: "eypidan"
 
     - ![Os2logo.svg](/assets/250px-Os2logo.png)
 
-    
-
-    
-
   - **Win32**: The Win32 environment subsystem can run 32-bit Windows applications. It contains the console as well as text window support, shutdown and hard-error handling for all other environment subsystems.
+
+    
 
 - Later versions of subsystems replaced the POSIX layer to provide the Subsystem for Unix-based Applications (SUA). This composed of user mode components to satisfy:
 
   1. Process and signal management
+
   2. Terminal management
+
   3. System service requests and inter process communication
+
+     
 
 - Cygwin
 
@@ -34,7 +36,10 @@ author: "eypidan"
   2. Its goal is to allow programs of Unix-like systems to be recompiled and run natively on Windows with minimal source code modifications by providing them with the same underlying POSIX API they would expect in those systems. 
   3. Belong to Cygnus Solutions who belongs to RedHat.
   4. Consists two parts:
+     
      1. A DLL as an API compatibility layer in the form of a C standard library providing a substantial part of the POSIX API functionality. 
+     
+        
 
 - Now -> windows subsystems for linux. 
 
