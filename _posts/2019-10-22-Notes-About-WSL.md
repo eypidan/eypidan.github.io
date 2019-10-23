@@ -14,7 +14,7 @@ author: "eypidan"
 
   - **OS/2**:OS/2 was intended as a protected-mode successor of PC DOS. Notably, basic system calls were modeled after MS-DOS calls.
 
-    - ![Os2logo.svg](./assets/250px-Os2logo.svg.png)
+    - ![Os2logo.svg](/assets/250px-Os2logo.png)
 
     
 
@@ -43,7 +43,7 @@ author: "eypidan"
     - User mode session manager service that handles the Linux instance life cycle
     - Pico provider drivers (lxss.sys, lxcore.sys) that emulate a Linux kernel by translating Linux syscalls
     - Pico processes that host the unmodified user mode Linux (e.g. /bin/bash)
-  - ![LXSS diagram](./assets/LXSS-diagram-1024x472.jpg)
+  - ![LXSS diagram](/assets/LXSS-diagram-1024x472.jpg)
 
 
 
@@ -78,7 +78,7 @@ author: "eypidan"
   
   - WSL File System's overall architecture:
   
-  ![s](./assets/file-system-graphic-1024x547.png)
+  ![s](/assets/file-system-graphic-1024x547.png)
   
 	When an application calls a system call, this is handled by the system call layer, which defines the various kernel entry points such as open, read, chmod, stat, etc. For these file-related system calls, the system call layer has very little functionality; it basically just forwards the call to VFS. 
   
