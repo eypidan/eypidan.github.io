@@ -95,15 +95,22 @@ author: "eypidan"
 
 - WSL2
   1. File System: Use Virtual Hardwar Disk.
-  2.  Has Linux Kernel
+  
+  2. Has Linux Kernel
+  
   3. Access NTFS very faster
+  
   5. Full System Call Compatibility
       - Whereas WSL 1 used a translation layer that was built by the WSL team, WSL 2 includes its own Linux kernel with full system call compatibility. 
       - This introduces a whole new set of apps that you can run inside of WSL, such as Docker and more. 
+      
   5. Increased file IO performance
       -  File intensive operations like git clone, npm install, apt update, apt upgrade, and more will all be noticeably faster. The actual speed increase will depend on which app you’re running and how it is interacting with the file system.  
         - May be because Linux kernel's system's call is better than the translation layer of WSL1. 
+      
   6. Powered by Hyper-V, though in virtualization WSL2 takes few resources and can be fast to boot up.
+  
+      
 - About Hyper-V
   -  The newest version of WSL uses Hyper-V architecture to enable its virtualization.  
   - **BAD THING** :  Some 3rd party applications cannot work when Hyper-V is in use, which means they will not be able to run when WSL 2 is enabled. Unfortunately, this does include VMware, and versions of VirtualBox before VirtualBox 6.
