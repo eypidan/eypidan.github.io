@@ -37,11 +37,13 @@ author: "eypidan"
   3. Belong to Cygnus Solutions who belongs to RedHat.
   4. Consists two parts:
      
-     1. A DLL as an API compatibility layer in the form of a C standard library providing a substantial part of the POSIX API functionality. 
+     1. A DLL as an API compatibility layer in the form of a C standard library providing a substantial part of the POSIX API functionality. 	
+     
+     2.  An extensive collection of software tools and applications that provide a Unix-like look and feel. 
      
         
 
-- Now -> windows subsystems for linux. 
+- Now -> windows subsystems for Linux. 
 
   - It was first made available in [Windows 10 Insider Preview](https://en.wikipedia.org/wiki/Windows_Insider) build 14316
   - **WSL**1 is a collection of components that enables native Linux ELF64 binaries to run on Windows. It contains both user mode and kernel mode components. It is primarily comprised of:
@@ -110,7 +112,6 @@ author: "eypidan"
       
   6. Powered by Hyper-V, though in virtualization WSL2 takes few resources and can be fast to boot up.
   
-      
 - About Hyper-V
   -  The newest version of WSL uses Hyper-V architecture to enable its virtualization.  
   - **BAD THING** :  Some 3rd party applications cannot work when Hyper-V is in use, which means they will not be able to run when WSL 2 is enabled. Unfortunately, this does include VMware, and versions of VirtualBox before VirtualBox 6.
