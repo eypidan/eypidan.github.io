@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Common knowledge in ML"
+title:  "Network Layer in ML"
 author: "eypidan"
 ---
 <style>
@@ -8,43 +8,13 @@ author: "eypidan"
         border: 1px solid black;
         }
 </style>
-## Loss Function
-
-- Cross-Entropy
-
-### Cross-Entropy
-
-- Cross-entropy loss : log loss
-
-- ```python
-  def CrossEntropy(yHat, y):
-      if y == 1:
-        return -log(yHat)
-      else:
-        return -log(1 - yHat)
-  ```
-
-- Math
-
-  - if classes M = 2
-
-    $$cross-entropy = -(y\log(p)+(1-y))\log(1-p)$$
-
-  - if classes M > 2
-    $$cross-entropy  =  \sum_{c=1}^M{y_{o,c}log(p_{o,c})}$$
-
-    - p - predicted probability observation o is of class c
-    - y - binary indicator (0 or 1) if class label c is the correct classification for observation o
 
 
-
-
-
-## Network layer
+## Network Layer
 
 - Softmax layer
 
-### Softmax layer
+### Softmax Layer
 - Softmax turns arbitrary real values into probabilities
 
 - Softmax performs the following transform on n numbers:$x_1...x_n:$
@@ -59,4 +29,4 @@ author: "eypidan"
 | ------ | ---- | ----- | ----------- |
 | dog    | -1   | 0.368 | 0.047       |
 | cat    | 2    | 7.39  | 0.953       |
-{: .tablelines}
+
