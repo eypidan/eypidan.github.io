@@ -11,6 +11,7 @@ author: "eypidan"
 ## Loss Function
 
 - Cross-Entropy
+- support vector machine
 
 ### Cross-Entropy
 
@@ -28,15 +29,20 @@ author: "eypidan"
 
   - if classes M = 2
 
-    $$cross-entropy = -(y\log(p)+(1-y))\log(1-p)$$
-
+    
+	$$
+    cross-entropy = -(y\log(p)+(1-y))\log(1-p)
+  $$
+  
   - if classes M > 2
-    $$cross-entropy  =  \sum_{c=1}^M{y_{o,c}log(p_{o,c})}$$
-
+    $$
+    cross-entropy  =  \sum_{c=1}^M{y_{o,c}log(p_{o,c})}
+    $$
+  
     - p - predicted probability observation o is of class c
     - y - binary indicator (0 or 1) if class label c is the correct classification for observation o
 
 
 
-
+### Support Vector Machine 
 
